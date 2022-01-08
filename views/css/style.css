@@ -1,0 +1,139 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media screen and (min-width: 801px) {
+  .example {
+    font-size: 22px;
+  }
+  .example1 {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .example {
+    font-size: 17px;
+  }
+  .example1
+  {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media screen and (min-width: 801px) {
+  .example2 {
+    font-size: 22px;
+  }
+  .example12 {
+    width: 80px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+    .example23 {
+      font-size: 21.8px;
+    }
+    #i2
+    {
+      width: 60%;
+      height: 200px;
+      box-shadow: 8px 8px 25px 3px #555555;
+    }
+    #i3
+    {
+       font-size: 24px; 
+       font-family:Trebuchet MS;
+    }
+  }
+  @media screen and (min-width: 581px) {
+    
+    #i2
+    {
+      width: 60%;
+      height: 450px;
+      box-shadow: 10px 10px 35px 5px #555555;
+    }
+    #i3
+    {
+       font-size: 28px; 
+       font-family:Trebuchet MS;
+    }
+  }
+
+  @media screen and (max-width: 580px) {
+      body
+  {
+    background-image: url('../images/original1.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    top:200px;
+    
+      background-color: #F1F3F6;
+  }
+    }
+  @media screen and (min-width: 581px) {
+    body
+  {
+    background-image: url('../images/original1.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    top:200px;
+    
+      background-color: #F1F3F6;
+  }
+  }
+  #zook
+  {
+    transition:transform 0.8s
+  }
+  #zook:hover
+  {
+    transform:scale(1.1);
+  }
+  
+  img#I
+  {
+    width:200px;
+    height:200px;
+    border-radius: 100px;
+  }
+  table#t4
+  {
+    
+    background-color: white;
+  }
+  table#t4 td
+  {
+    width: 25%;
+  }
+  table#t5
+  {
+    left:10;
+    right:330;
+      background-color: white;
+    height: 100px;
+  }
+  td#t6
+  {
+    height: 10px;
+    /* background-color: blue; */
+  }
+  #abc
+  {
+    font-family: Trebuchet MS, sans-serif; 
+    font-size:17px;
+    color:white;
+  }
+  #abc:hover
+  {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  #a1:link,#a1:visited,#a1:hover,#a1:active {
+    color: white;
+  }
