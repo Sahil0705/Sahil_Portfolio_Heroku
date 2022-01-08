@@ -81,7 +81,7 @@ app.post("/check_pwd",async(req,res)=>
     
     //console.log(msg)
     const entered_pwd = req.body.pwd;
-    if(entered_pwd=='May07@SD')
+    if(entered_pwd=='hh4h43h65265625gf334rt')
     {
         res.redirect('/view_msg');
     }
