@@ -1,6 +1,7 @@
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 @media screen and (min-width: 801px) {
@@ -137,3 +138,4 @@ html, body {
   #a1:link,#a1:visited,#a1:hover,#a1:active {
     color: white;
   }
+ 
